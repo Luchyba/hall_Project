@@ -1,0 +1,66 @@
+.logsin-form-container{
+    position: fixed;
+    top: 0; 
+    left: 0;
+    z-index: 10000;
+    min-height: 100vh;
+    width: 100%;
+    background: #97deff9f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .logsin-form-container.active{
+    top: 0;
+} */
+
+.logsin-form-container form{
+    margin: 2rem;
+    padding: 1.5rem 2rem;
+    border-radius: .5rem;
+    background: #fff;
+    width: 50rem;
+}
+.logsin-form-container form h3{
+    font-size: 3rem;
+    color: #AA77FF;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem 0;
+}
+.logsin-form-container form .box{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #AA77FF;
+    margin: .6rem 0;
+    border: .1rem solid rgba(rgb(0, 149, 255), green, blue, alpha);
+    text-transform: none;
+}
+.logsin-form-container form .box:focus{
+    border-color: #782cf2;
+}
+.logsin-form-container form .btn{
+    display: block;
+    width: 100%;
+}
+.logsin-form-container form p{
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: #97DEFF;
+}
+.logsin-form-container form p a{
+    color: var(--blue);
+}
+.logsin-form-container form p a:hover{
+    color: #97DEFF;
+    text-decoration: underline;
+}
+.logsin-form-container #form-close{
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    font-size: 5rem;
+    color: #782cf2;
+    cursor: pointer;
+}

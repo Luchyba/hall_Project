@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://kit.fontawesome.com/90489c8f29.js" crossorigin="anonymous"></script>
+
+
+  <!-- <link rel="stylesheet" href="https://kit.fontawesome.com/90489c8f29.css" crossorigin="anonymous"> -->
+  <title>Hostel Web</title>
+</head>
+
+<body>
+  <!-- Head section -->
+  <header>
+    <i class="fa-solid fa-bars" id="menu-bar"></i>
+    <img src="assets/img/aamusted-logo.jpg" alt="" srcset="" class="logo">
+    <!-- <a href="#" class="logo"><span>H</span>ostel</a> -->
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="hall.html">Halls</a>
+      <a href="gallary.html">Gallary</a>
+      <a href="regs.php">Signup to Book</a>
+      <a href="contact.html">contact</a>
+    </nav>
+    <div class="icon">
+      <!-- <i class="fa-thin fa-square-xmark"></i> -->
+      <!-- <i class="fa-fa-search" id="search-btn"></i> -->
+      <i class="fa-solid fa-magnifying-glass" id="search-btn"></i>
+      <i class="fa-solid fa-user" id="login-btn"></i>
+      <!-- <i class="fa-fa-user" id="user-btn"></i> -->
+    </div>
+    <form action="" class="search-bar-container">
+      <input type="search" id="search-bar" placeholder="search here...." />
+      <label for="search-bar" class="fa-solid fa-magnifying-glass"></label>
+    </form>
+  </header>
+  <!-- header ends -->
+  <!-- login form container Start here-->
+  <div class="login-form-container">
+    <i class="fa-regular fa-circle-xmark" id="form-close"></i>
+    <form action="">
+      <h3>Login</h3>
+      <input type="text" class="box" placeholder="enter your email">
+      <input type="password" class="box" placeholder="enter your password">
+      <input type="submit" name="" value="login now" class="btn">
+      <input type="checkbox" name="" id="remember">
+      <label for="remember">Remember me</label>
+      <p>forget password? <a href="#">Click here</a></p>
+      <p>Don't have an account? <a href="regs.php">Register now</a></p>
+    </form>
+  </div>
+
+  <!-- home section start here -->
+  <section class="home" id="home">
+    <div class="content">
+      <h3>Welcome to AAMUSTED Hall booking App</h3>
+      <p>Discove the new way of booking for a hall</p>
+      <a href="#" class="btn">Discover more</a>
+    </div>
+    <div class="controls">
+      <span class="vid-btn active" data-src="assets/vid/vid1.mp4"></span>
+      <span class="vid-btn" data-src="assets/vid/vid2.mp4"></span>
+      <span class="vid-btn" data-src="assets/vid/vid3.mp4"></span>
+      <span class="vid-btn" data-src="assets/vid/vid4.mp4"></span>
+      <span class="vid-btn" data-src="assets/vid/vid5.mp4"></span>
+    </div>
+    <div class="video-container">
+      <video src="assets/vid/" id="video-slider" loop autoplay muted></video>
+    </div>
+  </section>
+  <!-- home section ends here -->
+
+  <!-- Service section start here -->
+  <section class="services" id="services">
+    <h1 class="heading">
+      <span>S</span>
+      <span>e</span>
+      <span>r</span>
+      <span>v</span>
+      <span>i</span>
+      <span>c</span>
+      <span>e</span>
+      <span>s</span>
+      <!-- <span class="space"></span> -->
+    </h1>
+
+    <div class="box-container">
+      <div class="box">
+        <i class="fa-solid fa-hotel"></i>
+        <h3>Affordable Accomodation</h3>
+        <p>Welcome to AAMUSTED hall where affordable accomodation is ashured</p>
+      </div>
+
+      <div class="box">
+        <i class="fa-solid fa-hotel"></i>
+        <h3>Affordable Accomodation</h3>
+        <p>Welcome to AAMUSTED hall where affordable accomodation is ashured</p>
+      </div>
+      <div class="box">
+        <i class="fa-light fa-plane"></i>
+        <h3>Affordable Accomodation</h3>
+        <p>Welcome to AAMUSTED hall where affordable accomodation is ashured</p>
+      </div>
+      <div class="box">
+        <i class="fa-regular fa-person-biking-mountain"></i>
+        <h3>Affordable Accomodation</h3>
+        <p>Welcome to AAMUSTED hall where affordable accomodation is ashured</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Service section ends here -->
+
+
+  <!-- review start here -->
+  <div class="review" id="review">
+    <h1 class="heading">
+      <span>R</span>
+      <span>e</span>
+      <span>v</span>
+      <span>i</span>
+      <span>e</span>
+      <span>w</span>
+    </h1>
+    <div class="swiper mySwiper review-slider">
+      <div class="swiper-wrapper wrapper">
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="assets/img/solo.jpg" alt="" srcset="">
+            <h3>Solo</h3>
+            <p>Sereen accomodation and secicurity for you study purposes</p>
+            <div class="stars">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="assets/img/papy.jpg" alt="" srcset="">
+            <h3>Neketia</h3>
+            <p>Sereen accomodation and secicurity for you study purposes</p>
+            <div class="stars">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="assets/img/kofi.jpg" alt="" srcset="">
+            <h3>Kofi</h3>
+            <p>Sereen accomodation and secicurity for you study purposes</p>
+            <div class="stars">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="assets/img/sam.jpg" alt="" srcset="">
+            <h3>Samuel</h3>
+            <p>Sereen accomodation and secicurity for you study purposes</p>
+            <div class="stars">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="assets/img/nao.jpg" alt="" srcset="">
+            <h3>Naomi</h3>
+            <p>Sereen accomodation and secicurity for you study purposes</p>
+            <div class="stars">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="assets/img/sam.jpg" alt="" srcset="">
+            <h3>Samuel</h3>
+            <p>Sereen accomodation and secicurity for you study purposes</p>
+            <div class="stars">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- review ends here -->
+  <!-- ----------------------contact---------------- -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
